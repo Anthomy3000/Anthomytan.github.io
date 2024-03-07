@@ -10,6 +10,8 @@
 }
 
 body {
+    opacity: 0;
+    transition: opacity .5s;
     min-height: 100vh;
     display: flex;
     align-items: center;
