@@ -1,8 +1,8 @@
 body {
-    background-color: #616161;
+    background-color: #BBDEFB;
 }
 
-.bg-black {
+.bg-black { 
     background-color: #000;
 }
 
@@ -11,8 +11,7 @@ body {
 }
 
 .active {
-    background-color: #fff;
-    color: #000;
+    background-color: blue;
 }
 
 .navbar-nav {
@@ -20,25 +19,24 @@ body {
 }
 
 .nav-link {
-    color: inheritt;
+    color: #fff !important;
 }
 
 .nav-item {
-    padding: 6px 20px;
-    color: #fff;
+    padding: 6px 12px;
+    text-align: center;
 }
 
 .nav-item:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: blue;
 }
 
 .right {
     margin-left: auto;
 }
- 
+
 .navbar-collapse.collapse.in {
-    display: block;
+    display: block !important;
 }
 
 @media (max-width: 992px) {
@@ -48,5 +46,6 @@ body {
 
     .nav-item {
         width: 100%;
+        text-align: left;
     }
 }
