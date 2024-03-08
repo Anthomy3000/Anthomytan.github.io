@@ -11,6 +11,16 @@
   padding: 0;
 }
 
+.productRow {
+  display:flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.productColumn {
+  flex: 33.33%;
+  padding: 5px;
+}
+
 html {
   /* 
     font-size: 10px; 
