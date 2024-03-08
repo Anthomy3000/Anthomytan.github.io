@@ -9,7 +9,7 @@ const navItems = [nav1, nav2, nav3, nav4, nav5];
 //Changing to index animation
 var timer = setTimeout(function() {
             window.location='https://anthomy3000.github.io/anthomytan.github.io/index.html'
-        }, 50000);
+        }, 100000);
 
 // Control Navigation Animation
 function navAnimation(val1, val2) {
