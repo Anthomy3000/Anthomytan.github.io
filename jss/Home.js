@@ -8,7 +8,7 @@ const nav5 = document.querySelector("#nav-5");
 const navItems = [nav1, nav2, nav3, nav4, nav5];
 //Changing to index animation
 var timer = setTimeout(function() {
-            /window.location='https://anthomy3000.github.io/anthomytan.github.io/index.html'
+            window.location='https://anthomy3000.github.io/anthomytan.github.io/index.html'
         }, 100000);
 
 // Control Navigation Animation
