@@ -251,7 +251,7 @@ h1 {
   padding: 0.5rem 1rem;
 }
 
-.fa {
+fa {
   padding: 20px;
   font-size: 30px;
   width: 30px;
@@ -261,26 +261,26 @@ h1 {
   border-radius: 50%;
 }
 
-.fa:hover {
+fa:hover {
     opacity: 0.7;
 }
 
-.fa-facebook {
+fa-facebook {
   background: #3B5998;
   color: white;
 }
 
-.fa-twitter {
+fa-twitter {
   background: #55ACEE;
   color: white;
 }
 
-.fa-youtube {
+fa-youtube {
   background: #bb0000;
   color: white;
 }
 
-.fa-instagram {
+fa-instagram {
   background: #FFC0CB;
   color: white;
 }
