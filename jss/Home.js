@@ -39,7 +39,10 @@ function toggleNav() {
     navAnimation("in", "out");
   }
 }
-
+// Changing website location
+function changeproduct(){
+            location.replace("https://anthomy3000.github.io/assignmentB/")
+}
 // Events Listeners
 hamburgerMenu.addEventListener("click", toggleNav);
 navItems.forEach((nav) => {
