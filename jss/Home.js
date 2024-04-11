@@ -43,12 +43,6 @@ function toggleNav() {
 function changeproduct(){
             location.replace("https://anthomy3000.github.io/assignmentB/")
 }
-function changeproduct1(){
-            location.href("https://drive.google.com/file/d/1o2c0P20xcCVUgXSULdC44obtES1d1Z4n/view?usp=sharing")
-}
-function changeproduct2(){
-            location.href("https://drive.google.com/file/d/1d6T1-pFqt98CRXz-Zzpb17W5aB3zQx6X/view?usp=sharing")
-}
 // Events Listeners
 hamburgerMenu.addEventListener("click", toggleNav);
 navItems.forEach((nav) => {
