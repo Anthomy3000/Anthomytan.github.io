@@ -163,15 +163,15 @@ body{
     border-color: #dd2d4a;
     color: #fff;
 }
-.btn.btn-black{
-    background: #dd2d4a;
+.btn.btn-blue{
+    background: #6397e6;
     color: #fff;
-    border-color: #dd2d4a;
+    border-color: #6397e6;
     transition: all 0.5s ease-in-out;
 }
-.btn.btn-black:hover{
+.btn.btn-blue:hover{
     background: transparent;
-    border-color: #dd2d4a;
+    border-color: #113873;
     color: #000;
 }
 }
