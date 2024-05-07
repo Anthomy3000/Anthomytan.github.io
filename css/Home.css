@@ -309,4 +309,12 @@ section#contact {
   }
 }
 
-
+/*Button */
+  a.button{
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    
+  }
