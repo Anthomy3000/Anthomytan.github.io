@@ -163,6 +163,18 @@ body{
     border-color: #dd2d4a;
     color: #fff;
 }
+.btn.btn-black{
+    background: #dd2d4a;
+    color: #fff;
+    border-color: #dd2d4a;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-black:hover{
+    background: transparent;
+    border-color: #dd2d4a;
+    color: #000;
+}
+}
 .about-para p{
     font-weight: 300;
     padding: 0.5rem;
