@@ -18,6 +18,12 @@ function navAnimation(val1, val2) {
   });
 }
 
+$(".bar").each(function(){
+  $(this).find(".bar-inner").animate({
+    width: $(this).attr("data-width")
+  },2000)
+});
+
 function toggleNav() {
   // Toggle: Hamburger Open/Close
   hamburgerMenu.classList.toggle("active");
