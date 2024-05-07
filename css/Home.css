@@ -310,7 +310,7 @@ section#contact {
 }
 
 /*Button */
-  a.button{
+  a{
     position: absolute;
     top: 50%;
     bottom: 50%;
