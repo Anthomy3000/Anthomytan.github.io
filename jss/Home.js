@@ -18,6 +18,7 @@ function navAnimation(val1, val2) {
   });
 }
 
+// Skill bar animation
 $(".bar").each(function(){
   $(this).find(".bar-inner").animate({
     width: $(this).attr("data-width")
