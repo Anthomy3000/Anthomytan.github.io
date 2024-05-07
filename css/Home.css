@@ -319,7 +319,7 @@ section#contact {
     text-decoration: none;
     padding: 18px 35px;
     background: rgb(0, 42, 24);
-    
+    background: linear-gradient(90deg, rgba(0, 42, 246, 1)0%, rbga(0, 241, 255, 1)100%;
     letter-spacing: 4px;
     font-size: 38px;
     font-weight: bold;
