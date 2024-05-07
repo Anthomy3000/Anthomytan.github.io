@@ -316,5 +316,13 @@ section#contact {
     bottom: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
+    text-decoration: none;
+    padding: 18px 35px;
+    background: rgb(0, 42, 24);
     
+    letter-spacing: 4px;
+    font-size: 38px;
+    font-weight: bold;
+    border-radius: 40px;
+    color: white;
   }
