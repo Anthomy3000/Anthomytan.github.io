@@ -304,22 +304,6 @@ section#contact {
 }
 
 /*Button */
-  a{
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    text-decoration: none;
-    padding: 18px 35px;
-    background: rgb(0, 42, 24);
-    background: linear-gradient(90deg, rgba(0, 42, 246, 1)0%, rbga(0, 241, 255, 1)100%;
-    letter-spacing: 4px;
-    font-size: 100px;
-    font-weight: bold;
-    border-radius: 40px;
-    color: white;
-  }
 button{
   border: none;
   color: white;
