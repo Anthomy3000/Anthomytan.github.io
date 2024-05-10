@@ -13,3 +13,16 @@ body{
   min-height: 100vh;
   padding: 30px 10%;
 }
+.container .skill-title{
+  max-width: 700px;
+  margin: 0px auto;
+  text-align: center;
+  font-family: helvetica;
+}
+.container .skill-title h1{
+  position: relative;
+  font-size: 40px;
+  color: #242223;
+  margin-bottom: 30px;
+  display: inline-block;
+}
