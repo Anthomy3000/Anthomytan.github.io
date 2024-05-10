@@ -197,7 +197,7 @@ body{
     border-color: #113873;
     color: #dd2d4a;
 }
-.center-container{
+.container .center-container{
     align-items: center;
     justify-content: center;
     text-align: center;
