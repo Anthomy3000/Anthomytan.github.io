@@ -197,4 +197,7 @@ body{
     border-color: #113873;
     color: #dd2d4a;
 }
-
+.center-container{
+  text-alignment: center;
+  
+}
