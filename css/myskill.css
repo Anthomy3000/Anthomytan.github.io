@@ -150,7 +150,7 @@ body{
     margin-top: 20px;
   }
 }
-.skill-container{
+.button-container{
     display: flex;
     flex-direction: column;
     align-items: center;
