@@ -153,7 +153,7 @@ body{
 .container .skill-btns{
     max-width: 700px;
     margin: 0px auto;
-    text-align: center
+    text-align: center;
 }
 .btn{
     border: none;
