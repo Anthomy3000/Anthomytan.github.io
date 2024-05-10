@@ -113,7 +113,7 @@ body{
   background-color: #F74208;
   border-radius: 15px;
   top: -1px;
-  animation: animate 1.5s cubix-bezier(1, 0.2, 0.2, 1) forwards;
+  animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
 }
 @keyframe animate{
   100%{
