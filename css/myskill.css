@@ -150,9 +150,10 @@ body{
     margin-top: 20px;
   }
 }
-.skill-btns{
-    display: flex;
-    margin: 2rem 0;
+.container .skill-btns{
+    max-width: 700px;
+    margin: 0px auto;
+    text-align: center
 }
 .btn{
     border: none;
@@ -196,9 +197,4 @@ body{
     background: transparent;
     border-color: #113873;
     color: #dd2d4a;
-}
-.container .center-container{
-    max-width: 700px;
-    margin: 0px auto;
-    text-align: center
 }
