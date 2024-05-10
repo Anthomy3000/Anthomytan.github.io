@@ -150,13 +150,10 @@ body{
     margin-top: 20px;
   }
 }
-.skill-btns{
-    max-width: 700px;
-    margin: 0px auto;
-    text-align: center;
+
+.about-btns{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 2rem 0;
 }
 .btn{
     border: none;
