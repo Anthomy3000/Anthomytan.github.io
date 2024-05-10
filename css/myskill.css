@@ -116,9 +116,7 @@ body{
   animation: animate 1.5s cubic-bezier(1, 0.2, 0.2, 1) forwards;
 }
 @keyframe animate{
-  100%{
     width: 100%;
-  }
 }
 .progress-line::after{
   content: '';
