@@ -83,7 +83,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 15px
+  margin: 15px;
 }
 .card > .row > .description{
   display: flex;
@@ -101,6 +101,9 @@ body{
   color: #b0b0ba;
   padding-top: 5px;
 }
+.description h4{
+  text-transform: uppercase;
+}
 input{
   display: none;
 }
@@ -113,13 +116,13 @@ input: checked + label .description{
 }
 /*Card Images Project*/
 .card[for="c1"]{
-  background-image: url('.Images/DSC_5613.JPG');
+  background-image: url('Images/DSC_5613.JPG');
 }
 .card[for="c2"]{
   background-image: url('.Images/DSC_5613.JPG');
 }
 .card[for="c3"]{
-  background-image: url('.Images/DSC_5613.JPG');
+  background-image: url('./Images/DSC_5613.JPG');
 }
 .card[for="c4"]{
   background-image: url('.Images/DSC_5613.JPG');
