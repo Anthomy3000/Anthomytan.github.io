@@ -1,4 +1,8 @@
-
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 <!--Project title-->
 .project-title{
   max-width: 700px;
@@ -39,7 +43,8 @@
 .container{
   display: flex;
 }
-.img{
+
+img{
   height: 300px;
   width: 200px;
 }
