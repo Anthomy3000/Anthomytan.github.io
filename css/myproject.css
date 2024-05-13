@@ -116,14 +116,14 @@ input: checked + label .description{
 }
 /*Card Images Project*/
 .card[for="c1"]{
-  background-image: url('../Images/DSC_5613.JPG');
+  background-image: url("../Images/DSC_5613.JPG");
 }
 .card[for="c2"]{
-  background-image: url('Images/DSC_5613.JPG');
+  background-image: url("../Images/DSC_5613.JPG");
 }
 .card[for="c3"]{
-  background-image: url("Images/DSC_5613.JPG");
+  background-image: url("../Images/DSC_5613.JPG");
 }
 .card[for="c4"]{
-  background-image: url('Images/DSC_5613.JPG');
+  background-image: url("../Images/DSC_5613.JPG");
 }
