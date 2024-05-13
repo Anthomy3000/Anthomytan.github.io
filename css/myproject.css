@@ -2,6 +2,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background: whitesmoke;
 }
 <!--Project title-->
 .project-title{
@@ -43,8 +44,51 @@ body{
 .container{
   display: flex;
 }
-
+.img-project{
+  height: 300px;
+  width: 250px;
+  margin: 50px;
+  box-shadow: 5px 5px 20px black;
+  overflow: hidden;
+}
 img{
   height: 300px;
-  width: 200px;
+  width: 250px;
+  border-radius: 3px;
+  transition: -5s;
+}
+.intro{
+  hieght: 150px;
+  width: 250px;
+  padding: 6px;
+  box-sizing: border-box;
+  position: absolute;
+  background: rgb(27, 27, 27, .5);
+  color: white;
+  transition: .5s
+}
+h1{
+  margin: 10px;
+  font-size: 40px;
+}
+p{
+  font-size: 20px;
+  margin: 20px;
+  visibility: hidden;
+  opacity: 0;
+}
+.img-project: hover{
+  cursor: pointer;
+}
+.img-project: hover .intro{
+  hieght: 220px;
+  bottom: 240px;
+  background: black;
+}
+.img-project: hover p{
+  opacity: 1;
+  visibility: visible;
+}
+.img-project: hover img{
+  transform: scale(1.1) rotate(-3deg);
 }
