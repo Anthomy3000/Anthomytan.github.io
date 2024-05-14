@@ -125,6 +125,53 @@ input:checked + label .description {
     opacity: 1 !important;
     transform: translateY(0) !important;
 }
+/*Button*/
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.project-btns{
+    display: flex;
+    margin: 2rem 0;
+}
+.btn{
+    border: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 0.55rem 0;
+    width: 130px;
+    font-weight: 600;
+    background: transparent;
+    margin: 0 0.5rem;
+    cursor: pointer;
+}
+.btn.btn-pink{
+    background: #dd2d4a;
+    color: #fff;
+    border-color: #dd2d4a;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-pink:hover{
+    background: transparent;
+    border-color: #dd2d4a;
+    color: #000;
+}
+.btn.btn-blue{
+    background: #6397e6;
+    color: #fff;
+    border-color: #6397e6;
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-blue:hover{
+    background: transparent;
+    border-color: #113873;
+    color: #dd2d4a;
+}
 /*Card Images Project*/
 .card[for="c1"]{
   background-image: url("../Images/DSC_5613.JPG");
