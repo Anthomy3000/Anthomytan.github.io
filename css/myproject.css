@@ -174,7 +174,7 @@ input:checked + label .description {
 }
 /*Card Images Project*/
 .card[for="c1"]{
-  background-image: url("../Images/Monster Escape.png");
+  background-image: url("../Images/Monster Escape .png");
 }
 .card[for="c2"]{
   background-image: url("../Images/Monster Escape_Art.png");
