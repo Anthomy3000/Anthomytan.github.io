@@ -161,6 +161,14 @@ input:checked + label .description {
     border-color: #dd2d4a;
     color: #000;
 }
+.btn.btn-white{
+    transition: all 0.5s ease-in-out;
+}
+.btn.btn-white:hover{
+    background: #dd2d4a;
+    border-color: #dd2d4a;
+    color: #fff;
+}
 .btn.btn-blue{
     background: #6397e6;
     color: #fff;
