@@ -199,3 +199,6 @@ input:checked + label .description {
 .card[for="c6"]{
   background-image: url("../Images/Business_card.png");
 }
+.card[for="c7"]{
+  background-image: url("../Images/Animation_Stickman.png");
+}
